@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="1" failures="1" errors="0" skipped="0">
+  <testsuite name="Login" timestamp="2024-11-17T17:23:34" time="12.465" tests="1" failures="1" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Login"/>
+      <property name="capabilities" value="chrome.130_0_6723_117.mac"/>
+      <property name="file" value="file://./test/specs/test/specs/saucedemo.ts"/>
+    </properties>
+    <testcase classname="chrome.130_0_6723_117.mac.Login" name="should login with provided creds" time="12.464">
+      <failure message="Can't call click on element with selector &quot;button[type=&quot;login-button&quot;]&quot; because element wasn't found"/>
+      <system-out><![CDATA[
+COMMAND: POST /session/7a8a56e3fdd70bdf4aec17d6873c2439/element/f.BDD56025E6A2A57E7A9497D99FDCEA46.d.2829BB57C782708FEA882536C4E11822.e.3/clear - {}
+RESULT: {}
+COMMAND: POST /session/7a8a56e3fdd70bdf4aec17d6873c2439/element/f.BDD56025E6A2A57E7A9497D99FDCEA46.d.2829BB57C782708FEA882536C4E11822.e.3/value - {"text":"visual_user"}
+RESULT: {"text":"visual_user"}
+COMMAND: POST /session/7a8a56e3fdd70bdf4aec17d6873c2439/element/f.BDD56025E6A2A57E7A9497D99FDCEA46.d.2829BB57C782708FEA882536C4E11822.e.5/clear - {}
+RESULT: {}
+COMMAND: POST /session/7a8a56e3fdd70bdf4aec17d6873c2439/element/f.BDD56025E6A2A57E7A9497D99FDCEA46.d.2829BB57C782708FEA882536C4E11822.e.5/value - {"text":"ssecret_sauce"}
+RESULT: {"text":"ssecret_sauce"}
+COMMAND: GET /session/7a8a56e3fdd70bdf4aec17d6873c2439/screenshot - {}
+RESULT: {}
+COMMAND: DELETE /session/7a8a56e3fdd70bdf4aec17d6873c2439 - {}
+RESULT: {}
+]]></system-out>
+      <system-err><![CDATA[
+Error: Can't call click on element with selector "button[type="login-button"]" because element wasn't found
+    at async Context.<anonymous> (/Users/olga/Desktop/wdio/test/specs/test/specs/saucedemo.ts:9:9)
+]]></system-err>
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,27 +1,123 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites tests="1" failures="0" errors="0" skipped="0">
-  <testsuite name="My Login application" timestamp="2024-11-17T17:14:19" time="2.735" tests="1" failures="0" errors="0" skipped="0">
+<testsuites tests="4" failures="0" errors="0" skipped="0">
+  <testsuite name="Test 1 Login add to basket check badge icon" timestamp="2024-11-17T23:35:43" time="1.101" tests="1" failures="0" errors="0" skipped="0">
     <properties>
       <property name="specId" value="0"/>
-      <property name="suiteName" value="My Login application"/>
+      <property name="suiteName" value="Test 1: Login, add to basket, check badge icon"/>
       <property name="capabilities" value="chrome.130_0_6723_117.mac"/>
-      <property name="file" value="file://./test/specs/test.e2e.ts"/>
+      <property name="file" value="file://./test/specs/test/specs/saucedemo.ts"/>
     </properties>
-    <testcase classname="chrome.130_0_6723_117.mac.My_Login_application" name="should login with valid credentials" time="2.733">
+    <testcase classname="chrome.130_0_6723_117.mac.Test_1:_Login,_add_to_basket,_check_badge_icon" name="should login with provided creds" time="1.087">
       <system-out><![CDATA[
-COMMAND: POST /session/ad3986395579174be802cdec5faeb11c/element/f.2E83893BC57CDF00026E72E4D28378D8.d.6DF7E8F6831DF12D69B642C4FD5F4B7A.e.4/clear - {}
+COMMAND: POST /session/a3978a2edc13039a0da082d02278d4eb/element/f.D20077F968077238993CFF9BA56852D6.d.7EF73AA2DF5744DF5D6164C13AAFF8FF.e.3/clear - {}
 RESULT: {}
-COMMAND: POST /session/ad3986395579174be802cdec5faeb11c/element/f.2E83893BC57CDF00026E72E4D28378D8.d.6DF7E8F6831DF12D69B642C4FD5F4B7A.e.4/value - {"text":"tomsmith"}
-RESULT: {"text":"tomsmith"}
-COMMAND: POST /session/ad3986395579174be802cdec5faeb11c/element/f.2E83893BC57CDF00026E72E4D28378D8.d.6DF7E8F6831DF12D69B642C4FD5F4B7A.e.6/clear - {}
+COMMAND: POST /session/a3978a2edc13039a0da082d02278d4eb/element/f.D20077F968077238993CFF9BA56852D6.d.7EF73AA2DF5744DF5D6164C13AAFF8FF.e.3/value - {"text":"visual_user"}
+RESULT: {"text":"visual_user"}
+COMMAND: POST /session/a3978a2edc13039a0da082d02278d4eb/element/f.D20077F968077238993CFF9BA56852D6.d.7EF73AA2DF5744DF5D6164C13AAFF8FF.e.5/clear - {}
 RESULT: {}
-COMMAND: POST /session/ad3986395579174be802cdec5faeb11c/element/f.2E83893BC57CDF00026E72E4D28378D8.d.6DF7E8F6831DF12D69B642C4FD5F4B7A.e.6/value - {"text":"SuperSecretPassword!"}
-RESULT: {"text":"SuperSecretPassword!"}
-COMMAND: POST /session/ad3986395579174be802cdec5faeb11c/element/f.2E83893BC57CDF00026E72E4D28378D8.d.6DF7E8F6831DF12D69B642C4FD5F4B7A.e.7/click - {}
+COMMAND: POST /session/a3978a2edc13039a0da082d02278d4eb/element/f.D20077F968077238993CFF9BA56852D6.d.7EF73AA2DF5744DF5D6164C13AAFF8FF.e.5/value - {"text":"secret_sauce"}
+RESULT: {"text":"secret_sauce"}
+COMMAND: POST /session/a3978a2edc13039a0da082d02278d4eb/element/f.D20077F968077238993CFF9BA56852D6.d.7EF73AA2DF5744DF5D6164C13AAFF8FF.e.6/click - {}
 RESULT: {}
-COMMAND: GET /session/ad3986395579174be802cdec5faeb11c/element/f.2E83893BC57CDF00026E72E4D28378D8.d.F351B9DA116EFB07997398B0D688368F.e.16/text - {}
+COMMAND: POST /session/a3978a2edc13039a0da082d02278d4eb/element/f.D20077F968077238993CFF9BA56852D6.d.7EF73AA2DF5744DF5D6164C13AAFF8FF.e.21/click - {}
 RESULT: {}
-COMMAND: DELETE /session/ad3986395579174be802cdec5faeb11c - {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+  <testsuite name="Test 2 Login add to card remove from basket check badge icon" timestamp="2024-11-17T23:35:44" time="0.338" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Test 2: Login, add to card, remove from basket, check badge icon"/>
+      <property name="capabilities" value="chrome.130_0_6723_117.mac"/>
+      <property name="file" value="file://./test/specs/test/specs/saucedemo.ts"/>
+    </properties>
+    <testcase classname="chrome.130_0_6723_117.mac.Test_2:_Login,_add_to_card,_remove_from_basket,_check_badge_icon" name="should login with provided creds" time="0.336">
+      <system-out><![CDATA[
+COMMAND: POST /session/a3978a2edc13039a0da082d02278d4eb/element/f.D20077F968077238993CFF9BA56852D6.d.8CA9A258FF16281C896EA990F251AC4B.e.32/clear - {}
+RESULT: {}
+COMMAND: POST /session/a3978a2edc13039a0da082d02278d4eb/element/f.D20077F968077238993CFF9BA56852D6.d.8CA9A258FF16281C896EA990F251AC4B.e.32/value - {"text":"visual_user"}
+RESULT: {"text":"visual_user"}
+COMMAND: POST /session/a3978a2edc13039a0da082d02278d4eb/element/f.D20077F968077238993CFF9BA56852D6.d.8CA9A258FF16281C896EA990F251AC4B.e.34/clear - {}
+RESULT: {}
+COMMAND: POST /session/a3978a2edc13039a0da082d02278d4eb/element/f.D20077F968077238993CFF9BA56852D6.d.8CA9A258FF16281C896EA990F251AC4B.e.34/value - {"text":"secret_sauce"}
+RESULT: {"text":"secret_sauce"}
+COMMAND: POST /session/a3978a2edc13039a0da082d02278d4eb/element/f.D20077F968077238993CFF9BA56852D6.d.8CA9A258FF16281C896EA990F251AC4B.e.35/click - {}
+RESULT: {}
+COMMAND: POST /session/a3978a2edc13039a0da082d02278d4eb/element/f.D20077F968077238993CFF9BA56852D6.d.8CA9A258FF16281C896EA990F251AC4B.e.53/click - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+  <testsuite name="Test 3 Login add to card check badge icon complete purchase" timestamp="2024-11-17T23:35:45" time="0.694" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Test 3: Login, add to card, check badge icon, complete purchase"/>
+      <property name="capabilities" value="chrome.130_0_6723_117.mac"/>
+      <property name="file" value="file://./test/specs/test/specs/saucedemo.ts"/>
+    </properties>
+    <testcase classname="chrome.130_0_6723_117.mac.Test_3:_Login,_add_to_card,_check_badge_icon,_complete_purchase" name="should login with provided creds" time="0.692">
+      <system-out><![CDATA[
+COMMAND: POST /session/a3978a2edc13039a0da082d02278d4eb/element/f.D20077F968077238993CFF9BA56852D6.d.E559640862DFE4793B5F4C2491013C15.e.55/clear - {}
+RESULT: {}
+COMMAND: POST /session/a3978a2edc13039a0da082d02278d4eb/element/f.D20077F968077238993CFF9BA56852D6.d.E559640862DFE4793B5F4C2491013C15.e.55/value - {"text":"visual_user"}
+RESULT: {"text":"visual_user"}
+COMMAND: POST /session/a3978a2edc13039a0da082d02278d4eb/element/f.D20077F968077238993CFF9BA56852D6.d.E559640862DFE4793B5F4C2491013C15.e.57/clear - {}
+RESULT: {}
+COMMAND: POST /session/a3978a2edc13039a0da082d02278d4eb/element/f.D20077F968077238993CFF9BA56852D6.d.E559640862DFE4793B5F4C2491013C15.e.57/value - {"text":"secret_sauce"}
+RESULT: {"text":"secret_sauce"}
+COMMAND: POST /session/a3978a2edc13039a0da082d02278d4eb/element/f.D20077F968077238993CFF9BA56852D6.d.E559640862DFE4793B5F4C2491013C15.e.58/click - {}
+RESULT: {}
+COMMAND: POST /session/a3978a2edc13039a0da082d02278d4eb/element/f.D20077F968077238993CFF9BA56852D6.d.E559640862DFE4793B5F4C2491013C15.e.81/click - {}
+RESULT: {}
+COMMAND: POST /session/a3978a2edc13039a0da082d02278d4eb/element/f.D20077F968077238993CFF9BA56852D6.d.E559640862DFE4793B5F4C2491013C15.e.82/click - {}
+RESULT: {}
+COMMAND: POST /session/a3978a2edc13039a0da082d02278d4eb/element/f.D20077F968077238993CFF9BA56852D6.d.E559640862DFE4793B5F4C2491013C15.e.83/click - {}
+RESULT: {}
+COMMAND: POST /session/a3978a2edc13039a0da082d02278d4eb/element/f.D20077F968077238993CFF9BA56852D6.d.E559640862DFE4793B5F4C2491013C15.e.96/clear - {}
+RESULT: {}
+COMMAND: POST /session/a3978a2edc13039a0da082d02278d4eb/element/f.D20077F968077238993CFF9BA56852D6.d.E559640862DFE4793B5F4C2491013C15.e.96/value - {"text":"Test"}
+RESULT: {"text":"Test"}
+COMMAND: POST /session/a3978a2edc13039a0da082d02278d4eb/element/f.D20077F968077238993CFF9BA56852D6.d.E559640862DFE4793B5F4C2491013C15.e.99/clear - {}
+RESULT: {}
+COMMAND: POST /session/a3978a2edc13039a0da082d02278d4eb/element/f.D20077F968077238993CFF9BA56852D6.d.E559640862DFE4793B5F4C2491013C15.e.99/value - {"text":"SurnameTest"}
+RESULT: {"text":"SurnameTest"}
+COMMAND: POST /session/a3978a2edc13039a0da082d02278d4eb/element/f.D20077F968077238993CFF9BA56852D6.d.E559640862DFE4793B5F4C2491013C15.e.100/clear - {}
+RESULT: {}
+COMMAND: POST /session/a3978a2edc13039a0da082d02278d4eb/element/f.D20077F968077238993CFF9BA56852D6.d.E559640862DFE4793B5F4C2491013C15.e.100/value - {"text":"12345"}
+RESULT: {"text":"12345"}
+COMMAND: POST /session/a3978a2edc13039a0da082d02278d4eb/element/f.D20077F968077238993CFF9BA56852D6.d.E559640862DFE4793B5F4C2491013C15.e.103/click - {}
+RESULT: {}
+COMMAND: POST /session/a3978a2edc13039a0da082d02278d4eb/element/f.D20077F968077238993CFF9BA56852D6.d.E559640862DFE4793B5F4C2491013C15.e.111/click - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+  <testsuite name="Test 4 Login add to card check badge icon back to the purchase list" timestamp="2024-11-17T23:35:45" time="0.372" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Test 4: Login, add to card, check badge icon, back to the purchase list"/>
+      <property name="capabilities" value="chrome.130_0_6723_117.mac"/>
+      <property name="file" value="file://./test/specs/test/specs/saucedemo.ts"/>
+    </properties>
+    <testcase classname="chrome.130_0_6723_117.mac.Test_4:_Login,_add_to_card,_check_badge_icon,_back_to_the_purchase_list" name="should login with provided creds" time="0.371">
+      <system-out><![CDATA[
+COMMAND: POST /session/a3978a2edc13039a0da082d02278d4eb/element/f.D20077F968077238993CFF9BA56852D6.d.E1163508016872595BCC74D46459C591.e.119/clear - {}
+RESULT: {}
+COMMAND: POST /session/a3978a2edc13039a0da082d02278d4eb/element/f.D20077F968077238993CFF9BA56852D6.d.E1163508016872595BCC74D46459C591.e.119/value - {"text":"visual_user"}
+RESULT: {"text":"visual_user"}
+COMMAND: POST /session/a3978a2edc13039a0da082d02278d4eb/element/f.D20077F968077238993CFF9BA56852D6.d.E1163508016872595BCC74D46459C591.e.121/clear - {}
+RESULT: {}
+COMMAND: POST /session/a3978a2edc13039a0da082d02278d4eb/element/f.D20077F968077238993CFF9BA56852D6.d.E1163508016872595BCC74D46459C591.e.121/value - {"text":"secret_sauce"}
+RESULT: {"text":"secret_sauce"}
+COMMAND: POST /session/a3978a2edc13039a0da082d02278d4eb/element/f.D20077F968077238993CFF9BA56852D6.d.E1163508016872595BCC74D46459C591.e.122/click - {}
+RESULT: {}
+COMMAND: POST /session/a3978a2edc13039a0da082d02278d4eb/element/f.D20077F968077238993CFF9BA56852D6.d.E1163508016872595BCC74D46459C591.e.140/click - {}
+RESULT: {}
+COMMAND: POST /session/a3978a2edc13039a0da082d02278d4eb/element/f.D20077F968077238993CFF9BA56852D6.d.E1163508016872595BCC74D46459C591.e.141/click - {}
+RESULT: {}
+COMMAND: POST /session/a3978a2edc13039a0da082d02278d4eb/element/f.D20077F968077238993CFF9BA56852D6.d.E1163508016872595BCC74D46459C591.e.148/click - {}
+RESULT: {}
+COMMAND: DELETE /session/a3978a2edc13039a0da082d02278d4eb - {}
 RESULT: {}
 ]]></system-out>
     </testcase>

@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites tests="1" failures="0" errors="0" skipped="0">
-  <testsuite name="My Login application 2" timestamp="2024-11-17T17:14:19" time="3.944" tests="1" failures="0" errors="0" skipped="0">
+  <testsuite name="My Login application 2" timestamp="2024-11-17T17:23:34" time="3.752" tests="1" failures="0" errors="0" skipped="0">
     <properties>
       <property name="specId" value="0"/>
       <property name="suiteName" value="My Login application 2"/>
       <property name="capabilities" value="chrome.130_0_6723_117.mac"/>
       <property name="file" value="file://./test/specs/test/specs/registration.spec.ts"/>
     </properties>
-    <testcase classname="chrome.130_0_6723_117.mac.My_Login_application_2" name="should login with valid credentials 1" time="3.942">
+    <testcase classname="chrome.130_0_6723_117.mac.My_Login_application_2" name="should login with valid credentials 1" time="3.749">
       <system-out><![CDATA[
-COMMAND: POST /session/8159eb4b1cba6f4421f59067f5401595/element/f.C44EA6C00AA83D4E3FA61E71DB677080.d.16910EF2E0D4CF2F653E613F7F95CA9C.e.4/clear - {}
+COMMAND: POST /session/98a734b9846e9de7b74b318da71fc8e7/element/f.7F8E86907D3FF5F0C091E15CF5DEE87E.d.CBC18ED8B7E3A21A482695CFD47904F7.e.4/clear - {}
 RESULT: {}
-COMMAND: POST /session/8159eb4b1cba6f4421f59067f5401595/element/f.C44EA6C00AA83D4E3FA61E71DB677080.d.16910EF2E0D4CF2F653E613F7F95CA9C.e.4/value - {"text":"tomsmith"}
+COMMAND: POST /session/98a734b9846e9de7b74b318da71fc8e7/element/f.7F8E86907D3FF5F0C091E15CF5DEE87E.d.CBC18ED8B7E3A21A482695CFD47904F7.e.4/value - {"text":"tomsmith"}
 RESULT: {"text":"tomsmith"}
-COMMAND: POST /session/8159eb4b1cba6f4421f59067f5401595/element/f.C44EA6C00AA83D4E3FA61E71DB677080.d.16910EF2E0D4CF2F653E613F7F95CA9C.e.6/clear - {}
+COMMAND: POST /session/98a734b9846e9de7b74b318da71fc8e7/element/f.7F8E86907D3FF5F0C091E15CF5DEE87E.d.CBC18ED8B7E3A21A482695CFD47904F7.e.6/clear - {}
 RESULT: {}
-COMMAND: POST /session/8159eb4b1cba6f4421f59067f5401595/element/f.C44EA6C00AA83D4E3FA61E71DB677080.d.16910EF2E0D4CF2F653E613F7F95CA9C.e.6/value - {"text":"SuperSecretPassword!"}
+COMMAND: POST /session/98a734b9846e9de7b74b318da71fc8e7/element/f.7F8E86907D3FF5F0C091E15CF5DEE87E.d.CBC18ED8B7E3A21A482695CFD47904F7.e.6/value - {"text":"SuperSecretPassword!"}
 RESULT: {"text":"SuperSecretPassword!"}
-COMMAND: POST /session/8159eb4b1cba6f4421f59067f5401595/element/f.C44EA6C00AA83D4E3FA61E71DB677080.d.16910EF2E0D4CF2F653E613F7F95CA9C.e.7/click - {}
+COMMAND: POST /session/98a734b9846e9de7b74b318da71fc8e7/element/f.7F8E86907D3FF5F0C091E15CF5DEE87E.d.CBC18ED8B7E3A21A482695CFD47904F7.e.7/click - {}
 RESULT: {}
-COMMAND: GET /session/8159eb4b1cba6f4421f59067f5401595/element/f.C44EA6C00AA83D4E3FA61E71DB677080.d.A483D944189C9F52857FF8A39474B87B.e.17/text - {}
+COMMAND: GET /session/98a734b9846e9de7b74b318da71fc8e7/element/f.7F8E86907D3FF5F0C091E15CF5DEE87E.d.7622EBCE48D35DA89219EC3D9248A338.e.16/text - {}
 RESULT: {}
-COMMAND: DELETE /session/8159eb4b1cba6f4421f59067f5401595 - {}
+COMMAND: DELETE /session/98a734b9846e9de7b74b318da71fc8e7 - {}
 RESULT: {}
 ]]></system-out>
     </testcase>
