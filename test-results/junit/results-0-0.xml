@@ -1,27 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites tests="1" failures="0" errors="0" skipped="0">
-  <testsuite name="My Login application" timestamp="2024-11-17T17:14:19" time="2.735" tests="1" failures="0" errors="0" skipped="0">
+  <testsuite name="WDIO page objects" timestamp="2024-11-21T13:59:35" time="1.817" tests="1" failures="0" errors="0" skipped="0">
     <properties>
       <property name="specId" value="0"/>
-      <property name="suiteName" value="My Login application"/>
-      <property name="capabilities" value="chrome.130_0_6723_117.mac"/>
-      <property name="file" value="file://./test/specs/test.e2e.ts"/>
+      <property name="suiteName" value="WDIO, page objects"/>
+      <property name="capabilities" value="chrome.131_0_6778_85.mac"/>
+      <property name="file" value="file://./test/specs/test/specs/checkoutstepone.spec.ts"/>
     </properties>
-    <testcase classname="chrome.130_0_6723_117.mac.My_Login_application" name="should login with valid credentials" time="2.733">
+    <testcase classname="chrome.131_0_6778_85.mac.WDIO,_page_objects" name="test4 add 2 items to basket try to proceed with empty checkout page check the error" time="1.814">
       <system-out><![CDATA[
-COMMAND: POST /session/ad3986395579174be802cdec5faeb11c/element/f.2E83893BC57CDF00026E72E4D28378D8.d.6DF7E8F6831DF12D69B642C4FD5F4B7A.e.4/clear - {}
+COMMAND: POST /session/c3d4d854636c47adc45e81a1f9ca96ea/element/f.8F733A5FEA9778283ACA3C61F37C3073.d.7D9DEDD0618FE6988E4764A2B2D77C75.e.3/clear - {}
 RESULT: {}
-COMMAND: POST /session/ad3986395579174be802cdec5faeb11c/element/f.2E83893BC57CDF00026E72E4D28378D8.d.6DF7E8F6831DF12D69B642C4FD5F4B7A.e.4/value - {"text":"tomsmith"}
-RESULT: {"text":"tomsmith"}
-COMMAND: POST /session/ad3986395579174be802cdec5faeb11c/element/f.2E83893BC57CDF00026E72E4D28378D8.d.6DF7E8F6831DF12D69B642C4FD5F4B7A.e.6/clear - {}
+COMMAND: POST /session/c3d4d854636c47adc45e81a1f9ca96ea/element/f.8F733A5FEA9778283ACA3C61F37C3073.d.7D9DEDD0618FE6988E4764A2B2D77C75.e.3/value - {"text":"standard_user"}
+RESULT: {"text":"standard_user"}
+COMMAND: POST /session/c3d4d854636c47adc45e81a1f9ca96ea/element/f.8F733A5FEA9778283ACA3C61F37C3073.d.7D9DEDD0618FE6988E4764A2B2D77C75.e.5/clear - {}
 RESULT: {}
-COMMAND: POST /session/ad3986395579174be802cdec5faeb11c/element/f.2E83893BC57CDF00026E72E4D28378D8.d.6DF7E8F6831DF12D69B642C4FD5F4B7A.e.6/value - {"text":"SuperSecretPassword!"}
-RESULT: {"text":"SuperSecretPassword!"}
-COMMAND: POST /session/ad3986395579174be802cdec5faeb11c/element/f.2E83893BC57CDF00026E72E4D28378D8.d.6DF7E8F6831DF12D69B642C4FD5F4B7A.e.7/click - {}
+COMMAND: POST /session/c3d4d854636c47adc45e81a1f9ca96ea/element/f.8F733A5FEA9778283ACA3C61F37C3073.d.7D9DEDD0618FE6988E4764A2B2D77C75.e.5/value - {"text":"secret_sauce"}
+RESULT: {"text":"secret_sauce"}
+COMMAND: POST /session/c3d4d854636c47adc45e81a1f9ca96ea/element/f.8F733A5FEA9778283ACA3C61F37C3073.d.7D9DEDD0618FE6988E4764A2B2D77C75.e.6/click - {}
 RESULT: {}
-COMMAND: GET /session/ad3986395579174be802cdec5faeb11c/element/f.2E83893BC57CDF00026E72E4D28378D8.d.F351B9DA116EFB07997398B0D688368F.e.16/text - {}
+COMMAND: GET /session/c3d4d854636c47adc45e81a1f9ca96ea/element/f.8F733A5FEA9778283ACA3C61F37C3073.d.7D9DEDD0618FE6988E4764A2B2D77C75.e.34/text - {}
+COMMAND: GET /session/c3d4d854636c47adc45e81a1f9ca96ea/element/f.8F733A5FEA9778283ACA3C61F37C3073.d.7D9DEDD0618FE6988E4764A2B2D77C75.e.35/text - {}
+COMMAND: GET /session/c3d4d854636c47adc45e81a1f9ca96ea/element/f.8F733A5FEA9778283ACA3C61F37C3073.d.7D9DEDD0618FE6988E4764A2B2D77C75.e.36/text - {}
+COMMAND: GET /session/c3d4d854636c47adc45e81a1f9ca96ea/element/f.8F733A5FEA9778283ACA3C61F37C3073.d.7D9DEDD0618FE6988E4764A2B2D77C75.e.37/text - {}
+COMMAND: GET /session/c3d4d854636c47adc45e81a1f9ca96ea/element/f.8F733A5FEA9778283ACA3C61F37C3073.d.7D9DEDD0618FE6988E4764A2B2D77C75.e.38/text - {}
 RESULT: {}
-COMMAND: DELETE /session/ad3986395579174be802cdec5faeb11c - {}
+COMMAND: GET /session/c3d4d854636c47adc45e81a1f9ca96ea/element/f.8F733A5FEA9778283ACA3C61F37C3073.d.7D9DEDD0618FE6988E4764A2B2D77C75.e.39/text - {}
+RESULT: {}
+RESULT: {}
+RESULT: {}
+RESULT: {}
+RESULT: {}
+COMMAND: POST /session/c3d4d854636c47adc45e81a1f9ca96ea/element/f.8F733A5FEA9778283ACA3C61F37C3073.d.7D9DEDD0618FE6988E4764A2B2D77C75.e.43/click - {}
+RESULT: {}
+COMMAND: GET /session/c3d4d854636c47adc45e81a1f9ca96ea/element/f.8F733A5FEA9778283ACA3C61F37C3073.d.7D9DEDD0618FE6988E4764A2B2D77C75.e.34/text - {}
+COMMAND: GET /session/c3d4d854636c47adc45e81a1f9ca96ea/element/f.8F733A5FEA9778283ACA3C61F37C3073.d.7D9DEDD0618FE6988E4764A2B2D77C75.e.35/text - {}
+COMMAND: GET /session/c3d4d854636c47adc45e81a1f9ca96ea/element/f.8F733A5FEA9778283ACA3C61F37C3073.d.7D9DEDD0618FE6988E4764A2B2D77C75.e.36/text - {}
+RESULT: {}
+COMMAND: GET /session/c3d4d854636c47adc45e81a1f9ca96ea/element/f.8F733A5FEA9778283ACA3C61F37C3073.d.7D9DEDD0618FE6988E4764A2B2D77C75.e.37/text - {}
+RESULT: {}
+COMMAND: GET /session/c3d4d854636c47adc45e81a1f9ca96ea/element/f.8F733A5FEA9778283ACA3C61F37C3073.d.7D9DEDD0618FE6988E4764A2B2D77C75.e.38/text - {}
+COMMAND: GET /session/c3d4d854636c47adc45e81a1f9ca96ea/element/f.8F733A5FEA9778283ACA3C61F37C3073.d.7D9DEDD0618FE6988E4764A2B2D77C75.e.39/text - {}
+RESULT: {}
+RESULT: {}
+RESULT: {}
+RESULT: {}
+COMMAND: POST /session/c3d4d854636c47adc45e81a1f9ca96ea/element/f.8F733A5FEA9778283ACA3C61F37C3073.d.7D9DEDD0618FE6988E4764A2B2D77C75.e.44/click - {}
+RESULT: {}
+COMMAND: POST /session/c3d4d854636c47adc45e81a1f9ca96ea/element/f.8F733A5FEA9778283ACA3C61F37C3073.d.7D9DEDD0618FE6988E4764A2B2D77C75.e.46/click - {}
+RESULT: {}
+COMMAND: POST /session/c3d4d854636c47adc45e81a1f9ca96ea/element/f.8F733A5FEA9778283ACA3C61F37C3073.d.7D9DEDD0618FE6988E4764A2B2D77C75.e.54/click - {}
+RESULT: {}
+COMMAND: DELETE /session/c3d4d854636c47adc45e81a1f9ca96ea - {}
 RESULT: {}
 ]]></system-out>
     </testcase>
