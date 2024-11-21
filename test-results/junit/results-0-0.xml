@@ -1,121 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites tests="4" failures="0" errors="0" skipped="0">
-  <testsuite name="Test 1 Check that the basket is empty after a succsessfull purchase" timestamp="2024-11-19T15:47:34" time="1.988" tests="1" failures="0" errors="0" skipped="0">
+<testsuites tests="1" failures="0" errors="0" skipped="0">
+  <testsuite name="WDIO page objects" timestamp="2024-11-21T13:59:35" time="1.817" tests="1" failures="0" errors="0" skipped="0">
     <properties>
       <property name="specId" value="0"/>
-      <property name="suiteName" value="Test 1: Check that the basket is empty after a succsessfull purchase"/>
-      <property name="capabilities" value="chrome.131_0_6778_70.mac"/>
-      <property name="file" value="file://./test/specs/test/specs/saucedemo.ts"/>
+      <property name="suiteName" value="WDIO, page objects"/>
+      <property name="capabilities" value="chrome.131_0_6778_85.mac"/>
+      <property name="file" value="file://./test/specs/test/specs/checkoutstepone.spec.ts"/>
     </properties>
-    <testcase classname="chrome.131_0_6778_70.mac.Test_1:_Check_that_the_basket_is_empty_after_a_succsessfull_purchase" name="should login with provided creds" time="1.984">
+    <testcase classname="chrome.131_0_6778_85.mac.WDIO,_page_objects" name="test4 add 2 items to basket try to proceed with empty checkout page check the error" time="1.814">
       <system-out><![CDATA[
-COMMAND: POST /session/563e2f3e96a0542293ce5176c645c60e/element/f.A0B55FEAB479F84D7E44333402984743.d.5356ADE846E16A020826247438962122.e.3/clear - {}
+COMMAND: POST /session/c3d4d854636c47adc45e81a1f9ca96ea/element/f.8F733A5FEA9778283ACA3C61F37C3073.d.7D9DEDD0618FE6988E4764A2B2D77C75.e.3/clear - {}
 RESULT: {}
-COMMAND: POST /session/563e2f3e96a0542293ce5176c645c60e/element/f.A0B55FEAB479F84D7E44333402984743.d.5356ADE846E16A020826247438962122.e.3/value - {"text":"visual_user"}
-RESULT: {"text":"visual_user"}
-COMMAND: POST /session/563e2f3e96a0542293ce5176c645c60e/element/f.A0B55FEAB479F84D7E44333402984743.d.5356ADE846E16A020826247438962122.e.5/clear - {}
+COMMAND: POST /session/c3d4d854636c47adc45e81a1f9ca96ea/element/f.8F733A5FEA9778283ACA3C61F37C3073.d.7D9DEDD0618FE6988E4764A2B2D77C75.e.3/value - {"text":"standard_user"}
+RESULT: {"text":"standard_user"}
+COMMAND: POST /session/c3d4d854636c47adc45e81a1f9ca96ea/element/f.8F733A5FEA9778283ACA3C61F37C3073.d.7D9DEDD0618FE6988E4764A2B2D77C75.e.5/clear - {}
 RESULT: {}
-COMMAND: POST /session/563e2f3e96a0542293ce5176c645c60e/element/f.A0B55FEAB479F84D7E44333402984743.d.5356ADE846E16A020826247438962122.e.5/value - {"text":"secret_sauce"}
+COMMAND: POST /session/c3d4d854636c47adc45e81a1f9ca96ea/element/f.8F733A5FEA9778283ACA3C61F37C3073.d.7D9DEDD0618FE6988E4764A2B2D77C75.e.5/value - {"text":"secret_sauce"}
 RESULT: {"text":"secret_sauce"}
-COMMAND: POST /session/563e2f3e96a0542293ce5176c645c60e/element/f.A0B55FEAB479F84D7E44333402984743.d.5356ADE846E16A020826247438962122.e.6/click - {}
+COMMAND: POST /session/c3d4d854636c47adc45e81a1f9ca96ea/element/f.8F733A5FEA9778283ACA3C61F37C3073.d.7D9DEDD0618FE6988E4764A2B2D77C75.e.6/click - {}
 RESULT: {}
-COMMAND: POST /session/563e2f3e96a0542293ce5176c645c60e/element/f.A0B55FEAB479F84D7E44333402984743.d.5356ADE846E16A020826247438962122.e.30/click - {}
+COMMAND: GET /session/c3d4d854636c47adc45e81a1f9ca96ea/element/f.8F733A5FEA9778283ACA3C61F37C3073.d.7D9DEDD0618FE6988E4764A2B2D77C75.e.34/text - {}
+COMMAND: GET /session/c3d4d854636c47adc45e81a1f9ca96ea/element/f.8F733A5FEA9778283ACA3C61F37C3073.d.7D9DEDD0618FE6988E4764A2B2D77C75.e.35/text - {}
+COMMAND: GET /session/c3d4d854636c47adc45e81a1f9ca96ea/element/f.8F733A5FEA9778283ACA3C61F37C3073.d.7D9DEDD0618FE6988E4764A2B2D77C75.e.36/text - {}
+COMMAND: GET /session/c3d4d854636c47adc45e81a1f9ca96ea/element/f.8F733A5FEA9778283ACA3C61F37C3073.d.7D9DEDD0618FE6988E4764A2B2D77C75.e.37/text - {}
+COMMAND: GET /session/c3d4d854636c47adc45e81a1f9ca96ea/element/f.8F733A5FEA9778283ACA3C61F37C3073.d.7D9DEDD0618FE6988E4764A2B2D77C75.e.38/text - {}
 RESULT: {}
-COMMAND: POST /session/563e2f3e96a0542293ce5176c645c60e/element/f.A0B55FEAB479F84D7E44333402984743.d.5356ADE846E16A020826247438962122.e.31/click - {}
+COMMAND: GET /session/c3d4d854636c47adc45e81a1f9ca96ea/element/f.8F733A5FEA9778283ACA3C61F37C3073.d.7D9DEDD0618FE6988E4764A2B2D77C75.e.39/text - {}
 RESULT: {}
-COMMAND: POST /session/563e2f3e96a0542293ce5176c645c60e/element/f.A0B55FEAB479F84D7E44333402984743.d.5356ADE846E16A020826247438962122.e.38/click - {}
 RESULT: {}
-COMMAND: POST /session/563e2f3e96a0542293ce5176c645c60e/element/f.A0B55FEAB479F84D7E44333402984743.d.5356ADE846E16A020826247438962122.e.46/clear - {}
 RESULT: {}
-COMMAND: POST /session/563e2f3e96a0542293ce5176c645c60e/element/f.A0B55FEAB479F84D7E44333402984743.d.5356ADE846E16A020826247438962122.e.46/value - {"text":"Test"}
-RESULT: {"text":"Test"}
-COMMAND: POST /session/563e2f3e96a0542293ce5176c645c60e/element/f.A0B55FEAB479F84D7E44333402984743.d.5356ADE846E16A020826247438962122.e.49/clear - {}
 RESULT: {}
-COMMAND: POST /session/563e2f3e96a0542293ce5176c645c60e/element/f.A0B55FEAB479F84D7E44333402984743.d.5356ADE846E16A020826247438962122.e.49/value - {"text":"SurnameTest"}
-RESULT: {"text":"SurnameTest"}
-COMMAND: POST /session/563e2f3e96a0542293ce5176c645c60e/element/f.A0B55FEAB479F84D7E44333402984743.d.5356ADE846E16A020826247438962122.e.50/clear - {}
 RESULT: {}
-COMMAND: POST /session/563e2f3e96a0542293ce5176c645c60e/element/f.A0B55FEAB479F84D7E44333402984743.d.5356ADE846E16A020826247438962122.e.50/value - {"text":"12345"}
-RESULT: {"text":"12345"}
-COMMAND: POST /session/563e2f3e96a0542293ce5176c645c60e/element/f.A0B55FEAB479F84D7E44333402984743.d.5356ADE846E16A020826247438962122.e.55/click - {}
+COMMAND: POST /session/c3d4d854636c47adc45e81a1f9ca96ea/element/f.8F733A5FEA9778283ACA3C61F37C3073.d.7D9DEDD0618FE6988E4764A2B2D77C75.e.43/click - {}
 RESULT: {}
-COMMAND: POST /session/563e2f3e96a0542293ce5176c645c60e/element/f.A0B55FEAB479F84D7E44333402984743.d.5356ADE846E16A020826247438962122.e.64/click - {}
+COMMAND: GET /session/c3d4d854636c47adc45e81a1f9ca96ea/element/f.8F733A5FEA9778283ACA3C61F37C3073.d.7D9DEDD0618FE6988E4764A2B2D77C75.e.34/text - {}
+COMMAND: GET /session/c3d4d854636c47adc45e81a1f9ca96ea/element/f.8F733A5FEA9778283ACA3C61F37C3073.d.7D9DEDD0618FE6988E4764A2B2D77C75.e.35/text - {}
+COMMAND: GET /session/c3d4d854636c47adc45e81a1f9ca96ea/element/f.8F733A5FEA9778283ACA3C61F37C3073.d.7D9DEDD0618FE6988E4764A2B2D77C75.e.36/text - {}
 RESULT: {}
-]]></system-out>
-    </testcase>
-  </testsuite>
-  <testsuite name="Test 2 Check" timestamp="2024-11-19T15:47:36" time="0.634" tests="1" failures="0" errors="0" skipped="0">
-    <properties>
-      <property name="specId" value="0"/>
-      <property name="suiteName" value="Test 2: Check"/>
-      <property name="capabilities" value="chrome.131_0_6778_70.mac"/>
-      <property name="file" value="file://./test/specs/test/specs/saucedemo.ts"/>
-    </properties>
-    <testcase classname="chrome.131_0_6778_70.mac.Test_2:_Check" name="should login with provided creds" time="0.632">
-      <system-out><![CDATA[
-COMMAND: POST /session/563e2f3e96a0542293ce5176c645c60e/element/f.A0B55FEAB479F84D7E44333402984743.d.21804088D80A60A19E953D2EDF4CDB67.e.72/clear - {}
+COMMAND: GET /session/c3d4d854636c47adc45e81a1f9ca96ea/element/f.8F733A5FEA9778283ACA3C61F37C3073.d.7D9DEDD0618FE6988E4764A2B2D77C75.e.37/text - {}
 RESULT: {}
-COMMAND: POST /session/563e2f3e96a0542293ce5176c645c60e/element/f.A0B55FEAB479F84D7E44333402984743.d.21804088D80A60A19E953D2EDF4CDB67.e.72/value - {"text":"visual_user"}
-RESULT: {"text":"visual_user"}
-COMMAND: POST /session/563e2f3e96a0542293ce5176c645c60e/element/f.A0B55FEAB479F84D7E44333402984743.d.21804088D80A60A19E953D2EDF4CDB67.e.74/clear - {}
+COMMAND: GET /session/c3d4d854636c47adc45e81a1f9ca96ea/element/f.8F733A5FEA9778283ACA3C61F37C3073.d.7D9DEDD0618FE6988E4764A2B2D77C75.e.38/text - {}
+COMMAND: GET /session/c3d4d854636c47adc45e81a1f9ca96ea/element/f.8F733A5FEA9778283ACA3C61F37C3073.d.7D9DEDD0618FE6988E4764A2B2D77C75.e.39/text - {}
 RESULT: {}
-COMMAND: POST /session/563e2f3e96a0542293ce5176c645c60e/element/f.A0B55FEAB479F84D7E44333402984743.d.21804088D80A60A19E953D2EDF4CDB67.e.74/value - {"text":"secret_sauce"}
-RESULT: {"text":"secret_sauce"}
-COMMAND: POST /session/563e2f3e96a0542293ce5176c645c60e/element/f.A0B55FEAB479F84D7E44333402984743.d.21804088D80A60A19E953D2EDF4CDB67.e.75/click - {}
 RESULT: {}
-COMMAND: POST /session/563e2f3e96a0542293ce5176c645c60e/element/f.A0B55FEAB479F84D7E44333402984743.d.21804088D80A60A19E953D2EDF4CDB67.e.97/click - {}
 RESULT: {}
-COMMAND: POST /session/563e2f3e96a0542293ce5176c645c60e/element/f.A0B55FEAB479F84D7E44333402984743.d.21804088D80A60A19E953D2EDF4CDB67.e.98/click - {}
 RESULT: {}
-COMMAND: POST /session/563e2f3e96a0542293ce5176c645c60e/element/f.A0B55FEAB479F84D7E44333402984743.d.21804088D80A60A19E953D2EDF4CDB67.e.99/click - {}
+COMMAND: POST /session/c3d4d854636c47adc45e81a1f9ca96ea/element/f.8F733A5FEA9778283ACA3C61F37C3073.d.7D9DEDD0618FE6988E4764A2B2D77C75.e.44/click - {}
 RESULT: {}
-]]></system-out>
-    </testcase>
-  </testsuite>
-  <testsuite name="Test 3 Check the basket is empty after an item has been deleted from the basket" timestamp="2024-11-19T15:47:36" time="0.469" tests="1" failures="0" errors="0" skipped="0">
-    <properties>
-      <property name="specId" value="0"/>
-      <property name="suiteName" value="Test 3: Check the basket is empty after an item has been deleted from the basket"/>
-      <property name="capabilities" value="chrome.131_0_6778_70.mac"/>
-      <property name="file" value="file://./test/specs/test/specs/saucedemo.ts"/>
-    </properties>
-    <testcase classname="chrome.131_0_6778_70.mac.Test_3:_Check_the_basket_is_empty_after_an_item_has_been_deleted_from_the_basket" name="should login with provided creds" time="0.468">
-      <system-out><![CDATA[
-COMMAND: POST /session/563e2f3e96a0542293ce5176c645c60e/element/f.A0B55FEAB479F84D7E44333402984743.d.E7219488A8FEAA825EF02DED0494683D.e.109/clear - {}
+COMMAND: POST /session/c3d4d854636c47adc45e81a1f9ca96ea/element/f.8F733A5FEA9778283ACA3C61F37C3073.d.7D9DEDD0618FE6988E4764A2B2D77C75.e.46/click - {}
 RESULT: {}
-COMMAND: POST /session/563e2f3e96a0542293ce5176c645c60e/element/f.A0B55FEAB479F84D7E44333402984743.d.E7219488A8FEAA825EF02DED0494683D.e.109/value - {"text":"visual_user"}
-RESULT: {"text":"visual_user"}
-COMMAND: POST /session/563e2f3e96a0542293ce5176c645c60e/element/f.A0B55FEAB479F84D7E44333402984743.d.E7219488A8FEAA825EF02DED0494683D.e.111/clear - {}
+COMMAND: POST /session/c3d4d854636c47adc45e81a1f9ca96ea/element/f.8F733A5FEA9778283ACA3C61F37C3073.d.7D9DEDD0618FE6988E4764A2B2D77C75.e.54/click - {}
 RESULT: {}
-COMMAND: POST /session/563e2f3e96a0542293ce5176c645c60e/element/f.A0B55FEAB479F84D7E44333402984743.d.E7219488A8FEAA825EF02DED0494683D.e.111/value - {"text":"secret_sauce"}
-RESULT: {"text":"secret_sauce"}
-COMMAND: POST /session/563e2f3e96a0542293ce5176c645c60e/element/f.A0B55FEAB479F84D7E44333402984743.d.E7219488A8FEAA825EF02DED0494683D.e.112/click - {}
-RESULT: {}
-COMMAND: POST /session/563e2f3e96a0542293ce5176c645c60e/element/f.A0B55FEAB479F84D7E44333402984743.d.E7219488A8FEAA825EF02DED0494683D.e.129/click - {}
-RESULT: {}
-]]></system-out>
-    </testcase>
-  </testsuite>
-  <testsuite name="Test 4 Check that the error message is displayed after an attempt to login with invalid password" timestamp="2024-11-19T15:47:37" time="0.36" tests="1" failures="0" errors="0" skipped="0">
-    <properties>
-      <property name="specId" value="0"/>
-      <property name="suiteName" value="Test 4: Check that the error message is displayed after an attempt to login with invalid password"/>
-      <property name="capabilities" value="chrome.131_0_6778_70.mac"/>
-      <property name="file" value="file://./test/specs/test/specs/saucedemo.ts"/>
-    </properties>
-    <testcase classname="chrome.131_0_6778_70.mac.Test_4:_Check_that_the_error_message_is_displayed_after_an_attempt_to_login_with_invalid_password" name="should login with provided creds" time="0.359">
-      <system-out><![CDATA[
-COMMAND: POST /session/563e2f3e96a0542293ce5176c645c60e/element/f.A0B55FEAB479F84D7E44333402984743.d.30E65ED018AE22D0956A52222F2C72EE.e.131/clear - {}
-RESULT: {}
-COMMAND: POST /session/563e2f3e96a0542293ce5176c645c60e/element/f.A0B55FEAB479F84D7E44333402984743.d.30E65ED018AE22D0956A52222F2C72EE.e.131/value - {"text":"visual_user"}
-RESULT: {"text":"visual_user"}
-COMMAND: POST /session/563e2f3e96a0542293ce5176c645c60e/element/f.A0B55FEAB479F84D7E44333402984743.d.30E65ED018AE22D0956A52222F2C72EE.e.133/clear - {}
-RESULT: {}
-COMMAND: POST /session/563e2f3e96a0542293ce5176c645c60e/element/f.A0B55FEAB479F84D7E44333402984743.d.30E65ED018AE22D0956A52222F2C72EE.e.133/value - {"text":"secret"}
-RESULT: {"text":"secret"}
-COMMAND: POST /session/563e2f3e96a0542293ce5176c645c60e/element/f.A0B55FEAB479F84D7E44333402984743.d.30E65ED018AE22D0956A52222F2C72EE.e.134/click - {}
-RESULT: {}
-COMMAND: DELETE /session/563e2f3e96a0542293ce5176c645c60e - {}
+COMMAND: DELETE /session/c3d4d854636c47adc45e81a1f9ca96ea - {}
 RESULT: {}
 ]]></system-out>
     </testcase>
